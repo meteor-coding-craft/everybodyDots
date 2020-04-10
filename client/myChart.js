@@ -80,10 +80,21 @@ Template.myChart.onRendered(function () {
             changed : function(oldDoc,newDoc){
                 //이전색상 oldDoc , 이후색상 newDoc 반영 하기
                 var list = self.colorList;
+/*
                 chart.series[0].points[_.indexOf(list,oldDoc.color)].update(
                     Dot.find({color:oldDoc.color}).count()
                 );
                 chart.series[0].points[_.indexOf(list,newDoc.color)].update(
+                    Dot.find({color:newDoc.color}).count()
+                );
+*/
+/*1.10*/
+
+                //underscore 제거함, 미티어도 이제 안씀. 기본 array 로 해결함
+                chart.series[0].points[list.indexOf(oldDoc.color)].update(
+                    Dot.find({color:oldDoc.color}).count()
+                );
+                chart.series[0].points[list.indexOf(newDoc.color)].update(
                     Dot.find({color:newDoc.color}).count()
                 );
             }
