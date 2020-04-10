@@ -1,5 +1,9 @@
 import { Meteor } from 'meteor/meteor';
 
-Meteor.startup(() => {
-  // code to run on server at startup
-});
+/*1.10*/
+import '../lib/collections.js';
+import './fixture.js';
+import './allow.js';
+import './methods.js';
+import './publish.js';
+/*1.10*/
