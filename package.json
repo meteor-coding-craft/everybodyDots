@@ -12,7 +12,7 @@
     "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.4.1",
     "highcharts": "^8.0.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "meteor-node-stubs": "^1.0.0",
     "remove": "^0.1.5",
     "underscore": "^1.10.2"
