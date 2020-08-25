@@ -11,7 +11,7 @@
     "@babel/runtime": "^7.8.3",
     "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.4.1",
-    "highcharts": "^8.0.4",
+    "highcharts": "^8.1.1",
     "jquery": "^3.4.1",
     "meteor-node-stubs": "^1.0.0",
     "remove": "^0.1.5",
